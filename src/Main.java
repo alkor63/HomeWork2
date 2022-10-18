@@ -46,5 +46,12 @@ public class Main {
         System.out.println("второй боксер тяжелее на " + difWeight + " кг");
         difWeight = weightBoxer2 % weightBoxer1;
         System.out.println("разница в весе боксеров = " + difWeight + " кг");
+// task 8
+        var workH = 640;
+        var numWorker = workH / 8;
+        System.out.println("Всего работников в компании – " + numWorker + " человек");
+        numWorker = numWorker + 94;
+        workH = numWorker * 8;
+        System.out.println("Если в компании работает " + numWorker + " человека, то всего " + workH + " часов работы может быть поделено между сотрудниками");
     }
 }
