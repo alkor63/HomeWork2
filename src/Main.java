@@ -3,6 +3,7 @@ public class Main {
     {
         System.out.println("*** task 1");
         var dog = 8;
+        var dogF=8.0;
         var cat = 3.6;
         var paper = 763789;
         System.out.println("dog = " + dog);
@@ -18,10 +19,10 @@ public class Main {
         System.out.println("paper = " + paper);
 // вычитание
         System.out.println("*** task 3");
-        dog = dog - 3;
+        dogF = dog - 3.5;
         cat = cat - 1.6;
         paper = paper - 7639;
-        System.out.println("dog = " + dog);
+        System.out.println("dog = " + dogF);
         System.out.println("cat = " + cat);
         System.out.println("paper = " + paper);
 // task 4
