@@ -60,5 +60,6 @@ public class Main {
         numWorker = numWorker + 94;
         workH = numWorker * 8;
         System.out.println("Если в компании работает " + numWorker + " человека, то всего " + workH + " часов работы может быть поделено между сотрудниками");
+        System.out.println("********");
     }
 }
